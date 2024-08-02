@@ -71,7 +71,9 @@ if (mes === 3 || mes == 4 || mes === 5) {
 
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 
-// 10. Usa un switch para hacer de nuevo el ejercicio 7let season = "noviembre"
+// 10. Usa un switch para hacer de nuevo el ejercicio 7
+
+let season = "noviembre"
 
 if (season == "enero") {
     console.log("Estamos en Invierno")
