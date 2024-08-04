@@ -104,3 +104,5 @@ if (season == "enero") {
 else {
     console.log("Mes no es valido, intentalo de nuevo")
 }
+
+Guardado hasta aca
