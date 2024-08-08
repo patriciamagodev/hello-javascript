@@ -78,4 +78,4 @@ const cSymbol = Symbol('constante-simbolo');
 // cSymbol = Symbol('nuevo-constante-simbolo');
 
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
-// Las constantes no pueden ser reasignadas, por lo tanto, las líneas en el paso 9 están comentadas.
+// Las constantes no pueden modificarse
