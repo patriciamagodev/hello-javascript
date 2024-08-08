@@ -25,19 +25,19 @@ console.log(myMap)
 // Métodos y propiedades
 
 // set
-
+// Agregar o Actualizar elementos si ya la key existe
 myMap.set("alias", "mouredev")
 myMap.set("name", "Brais Moure")
 
 console.log(myMap)
 
 // get
-
+// Nos ayuda a recuperar el valor si existe
 console.log(myMap.get("name"))
 console.log(myMap.get("surname"))
 
 // has
-
+// Nos ayuda a comprobar si contiene o no un elemento
 console.log(myMap.has("surname"))
 console.log(myMap.has("age"))
 
@@ -48,7 +48,7 @@ myMap.delete("email")
 console.log(myMap)
 
 // keys, values y entries
-
+// Nos retorna las diferentes propiedades keys, valores, y el listado completo de keys con valores. 
 console.log(myMap.keys())
 console.log(myMap.values())
 console.log(myMap.entries())
@@ -58,7 +58,7 @@ console.log(myMap.entries())
 console.log(myMap.size)
 
 // clear
-
+// Limpio el mapa
 myMap.clear()
 
 console.log(myMap)
