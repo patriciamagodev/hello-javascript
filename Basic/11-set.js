@@ -7,12 +7,13 @@ https://www.twitch.tv/videos/2206228701?t=00h16m02s
 // Set
 
 // Declaración
-
+// Sin datos se declara así
 let mySet = new Set()
 
 console.log(mySet)
 
 // Inicialización
+// Ya con datos debe ir entre corchetes
 
 mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
 
@@ -22,20 +23,21 @@ console.log(mySet)
 
 // add y delete
 
-mySet.add("https://moure.dev")
+mySet.add("https://moure.dev") // Añade al final del listado de elementos, siguiendo el orden.
 
 console.log(mySet)
 
-mySet.delete("https://moure.dev")
+mySet.delete("https://moure.dev") // En cambio acá Hay que indicarle tal cual el contenido del elemeto quiero eliminar
 
 console.log(mySet)
 
-console.log(mySet.delete("Brais"))
+console.log(mySet.delete("Brais")) // Retorna y nos valida o niega con un boolean
 console.log(mySet.delete(4))
 
 console.log(mySet)
 
 // has
+// Verifica si tenemos o no un elemento dentro del Set
 
 console.log(mySet.has("Moure"))
 console.log(mySet.has("Brais"))
@@ -54,7 +56,7 @@ mySet = new Set(myArray)
 console.log(mySet)
 
 // No admite duplicados
-
+// No se pueden repetir elementos, son unicos.
 mySet.add("braismoure@mouredev.com")
 mySet.add("braismoure@mouredev.com")
 mySet.add("braismoure@mouredev.com")
