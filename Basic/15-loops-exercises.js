@@ -77,8 +77,8 @@ console.log(num2); // Imprimimos el segundo número (1)
 for (let i = 2; i < 10; i++) {
   siguiente = num1 + num2;
   console.log(siguiente);
-  num1 = num2;
-  num2 = siguiente;
+  num1 = num2; // Asiganmos el nuevo valor de la variable
+  num2 = siguiente; // Asiganmos el nuevo valor de la variable
 }
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
