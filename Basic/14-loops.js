@@ -19,6 +19,7 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 // while
+// Aca la condicion se marca desde fuera con la variable, antes de ejecutar el bucle.
 
 let i = 0
 while (i < 5) {
@@ -31,6 +32,7 @@ while (i < 5) {
 // }
 
 // do while
+// Se ejecuta una vez y si no cumple la condicion no se vuelve a ejecutar.
 
 i = 6
 do {
